@@ -340,7 +340,8 @@ body #mainWrapper main::after {
 --------------------------------------------------------------*/
 
 body {
-    background: #4186BF;
+    background-image: "assets\img\background.jpg";
+    background-size: cover;
 }
 
 body main {
@@ -349,7 +350,7 @@ body main {
 		border-radius: 15px;
 		box-shadow: 0 10px 45px rgba(0, 0, 0, .1);
 		*/
-    color: white;
+    color: #4186BF;
     position: absolute;
     top: 50%;
     left: 50%;
